@@ -1,0 +1,86 @@
+:root{
+    --color-1: #304D5D;
+    --color-2: #227B75;
+    --color-3: #63CBCA;
+    --color-4: #FCCAA9;
+    --color-5: #E6F2E6;
+  }
+
+.art_container{
+  width: 80%;
+  margin: 2rem auto ;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4rem 8rem; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "tittle"
+    "ul"; 
+  background-color: #21323b;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+}
+
+.tittle_container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-area: tittle;
+  color: #E6F2E6;
+  font-size: 2rem;
+}
+
+.ul_container{
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(2, 1.3fr) 0.8fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "li_one li_two li_three"
+    "li_one li_two li_three"
+    "li_one li_two li_three"; 
+  grid-area: ul; 
+  
+  
+  
+}
+
+.li_uno{
+  display: grid;
+  text-align: center;
+  grid-area: li_one;
+  
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.li_dos{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-area: li_two;
+  
+}
+
+.li_tres{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-area: li_three;
+  
+}
+
+.tittle_span{
+  font-size: 1.5rem;
+  color: #3f687e;
+}
+.content_span{
+  margin-top: -10px;
+  font-size: 1.2rem;
+  color: #63CBCA;
+}

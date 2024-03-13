@@ -1,0 +1,30 @@
+/* ----------- COLOR PALLET ----------- */
+/* https://coolors.co/00231d-2d7d7c-ff9e47-edc64f-f4f1be */
+
+
+:root{
+  --color-1: #304D5D;
+  --color-2: #227B75;
+  --color-3: #63CBCA;
+  --color-4: #FCCAA9;
+  --color-5: #E6F2E6;
+}
+
+
+.app{
+    background-color: #304D5D;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+    .cards_section{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+}
+
