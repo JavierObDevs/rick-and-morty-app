@@ -12,7 +12,7 @@ function App() {
   const randomLocation = getRandomNumber(126);
   const [locationSelect, setLocationSelect] = useState(randomLocation);
 
-  const url = `https://rickandmortyapi.com/api/location/${locationSelect}`;
+  const url = `https://rickandmortyapi.com/api/location/${locationSelect || getRandomNumber(126)}`;
   const [location, getLocation, hasError] = UseFetch(url);
 
   useEffect(() => {

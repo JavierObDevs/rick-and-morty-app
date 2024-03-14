@@ -47,10 +47,19 @@ transition: 0.8s;
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: greenyellow;
+  background-color: gainsboro;
   border: 1px solid #21323b;
   margin-right: 8px;
 }
+
+.Alive{
+    background-color: greenyellow;
+}
+
+.Dead{
+    background-color: crimson;
+}
+
 .text_status{
 font-size: smaller;
 }

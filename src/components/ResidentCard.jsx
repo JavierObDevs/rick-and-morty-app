@@ -13,7 +13,7 @@ const ResidentCard = ({ url }) => {
     <article className="container_card">
       <header className="container_header">
         <div className="container_status">
-          <div className="circle_status"></div>
+          <div className={`circle_status ${character?.status}`}></div>
           <div className="text_status">{character?.status}</div>
         </div>
         <img src={character?.image} alt="Image Character" />

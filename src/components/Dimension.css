@@ -29,7 +29,7 @@
   text-align: center;
   grid-area: tittle;
   color: #E6F2E6;
-  font-size: 2rem;
+  font-size: clamp(16px, 5vw, 44px);
 }
 
 .ul_container{
@@ -76,11 +76,22 @@
 }
 
 .tittle_span{
-  font-size: 1.5rem;
+  font-size: clamp(10px, 5vw, 24px);
   color: #3f687e;
 }
 .content_span{
   margin-top: -10px;
-  font-size: 1.2rem;
+  font-size: clamp(10px, 5vw, 24px);
   color: #63CBCA;
+}
+
+@media (max-width: 640px) {
+  .art_container{
+   scale: 0.9;
+  }
+  .ul_container{
+    scale: 0.8;
+  }
+
+
 }
